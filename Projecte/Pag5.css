@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 15fr 1fr;
+    grid-template-areas: 'title title title'
+'links texto .'
+'. peu .';
+    height: 100%;
+    width: 100%;
+}
+main {
+    grid-area: texto;
+    text-align: justify;
+    font-family: Calibri;
+}
+
+header {
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DejaVu Sans Mono";
+    color: rgb(23,131,44);
+    text-align: center;
+}
+
+div {
+    grid-area: texto;
+}
+
+nav {
+    grid-area: links;
+    margin-left: 5%;
+    font-family: Calibri;
+}
+
+footer  {
+    grid-area: peu;
+    font-family: Calibri;
+}
+
+#centre-dades {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#centre-dades-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#centre-dades-img {
+    width: 50%;
+    margin-left: 3%;
+    height: 50%;
+}
+
+#reciclar {
+    display: flex;
+    justify-content: right;
+}
+
+#reciclar-img {
+    margin-right: 3%;
+    width: 30%;
+    height: 30%;
+}
+
+#reciclar-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#software {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#software-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#software-img {
+    width: 50%;
+    margin-left: 3%;
+    height: 50%;
+}
+
+#seguretat {
+    display: flex;
+    justify-content: right;
+}
+
+#seguretat-img {
+    margin-right: 3%;
+    width: 30%;
+    height: 30%;
+}
+
+#seguretat-text {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas: 'title title title'
+'links texto .'
+'. peu .';
+    height: 100%;
+    width: 100%;
+}
+main {
+    grid-area: texto;
+    text-align: justify;
+    font-family: Calibri;
+}
+
+header {
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DejaVu Sans Mono";
+    color: rgb(23,131,44);
+}
+
+div {
+    grid-area: texto;
+}
+
+nav {
+    grid-area: links;
+    margin-left: 5%;
+    font-family: Calibri;
+}
+footer  {
+    grid-area: peu;
+    font-family: Calibri;
+}
+p {
+    margin-top: 0;
+}
+
+#container-ambientals {
+    display: flex;
+    justify-content: right;
+}
+
+#img-ambientals {
+    margin-left: 3%;
+}
+
+#container-ambientals-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#container-socials {
+    display: flex;
+    justify-content: left;
+}
+
+#img-socials {
+    margin-right: 3%;
+}
+
+#container-socials-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#container-govern {
+    display: flex;
+    justify-content: right;
+}
+
+#img-govern{
+    margin-left: 3%;
+    width: 50%;
+}
+
+#container-govern-text {
+    display: flex;
+    flex-direction: column;
+}

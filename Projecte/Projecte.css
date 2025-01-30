@@ -1,0 +1,76 @@
+body {
+    margin:0;
+    padding:0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 'title title title'
+'. texto .'
+' . peu .';
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    grid-area: texto;
+    text-align: justify;
+    font-family: Calibri;
+}
+
+header {
+    grid-area: title;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DejaVu Sans Mono";
+}
+img{
+    opacity: 0.5;
+    width: 100%;
+    height: 19.5%;
+    position: absolute;
+}
+
+footer  {
+    grid-area: peu;
+    font-family: Calibri;
+}
+
+div {
+    background-color: rgb(245, 245, 245);
+    grid-area: texto;
+}
+
+p {
+    margin-top: 0;
+    font-family: Calibri;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-family: Calibri;
+}
+
+a {
+    color: rgb(71,69,69);
+}
+
+nav > div {
+    background-color: lightgray;
+    border:1px solid grey;
+}
+
+#title {
+    animation: animacion linear 3s;
+}
+
+@keyframes animacion {
+    0% {transform: scale(2,2);}
+}
+
+@media (max-width: 600px) {
+    img {
+        opacity: 0;
+    }
+}
