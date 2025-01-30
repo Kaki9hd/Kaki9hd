@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @Kaki9hd
-- 👀 I’m interested in the army
-- 🌱 I’m currently learning python
+- 🌱 I’m currently learning mainly Java, SQL, JavaScript, HTML and CSS, with many more
 - 📫 How to reach me giulianoaurora@gmail.com
 
 <!---
