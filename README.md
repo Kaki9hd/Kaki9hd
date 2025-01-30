@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Kaki9hd
+- 👋 Hi, I’m Giuliano Aurora
 - 🌱 I’m currently learning mainly Java, SQL, JavaScript, HTML and CSS, with many more
 - 📫 How to reach me giulianoaurora@gmail.com
 
